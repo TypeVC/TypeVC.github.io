@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TypeVC Panel</title>
+</head>
+<body>
+  <h1>Welcome to TypeVC Hosting</h1>
+  <button onclick="startBot()">Start Bot</button>
+
+  <script>
+    function startBot() {
+      fetch("https://typevc-bot.up.railway.app/start") // Ye backend URL hai (agla step me banega)
+        .then(res => res.text())
+        .then(data => alert(data));
+    }
+  </script>
+</body>
+</html>
