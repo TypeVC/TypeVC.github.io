@@ -1,1 +1,1 @@
-# TypeVC.github.io
+# Typebot.github.io
